@@ -420,12 +420,13 @@ overlay code from http://www.cssscript.com/transparent-image-hover-overlay-with-
 /* ************************************ footer  ************************************ */
 
 .main-footer {
+
 	text-align: center;
 	margin-top: 30px;
 	padding-top: 5px;
 	padding-bottom: 5px;
 	color: white;
- 
+ 	
 	background: grey; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -433,9 +434,8 @@ overlay code from http://www.cssscript.com/transparent-image-hover-overlay-with-
 	background-size: cover;
 }
 
-
-.main-footer img{
-
+.main-footer h4 {
+	font-size: 1.2em;
 }
 
 
