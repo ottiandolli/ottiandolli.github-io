@@ -264,6 +264,66 @@ position: relative;
 }
 
 
+/*****************************************Featured products page************************************************************/
+
+.fancyline {
+	width: 100%;
+	margin-top: 50px;
+}
+
+.cheesecaketitle{
+	text-align: center;
+	font-size: 1.8em;
+}
+
+#cheesegallery {
+
+   display: -webkit-flex;
+   display: flex;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-justify-content: center;
+   justify-content: center;
+   /* You can set flex-wrap and flex-direction individually */
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   /* Or do it all in one line with flex flow */
+   -webkit-flex-flow: row wrap;
+   flex-flow: row wrap;
+   /* tweak the where items line up on the row */
+   /* valid values are: flex-start, flex-end, space-between, space-around, stretch */
+   -webkit-align-content: flex-end;
+   align-content: flex-end;
+
+}
+
+#cheesegallery li{
+	width: 350px;
+	margin: 10px;
+
+}
+
+#cheesegallery h3{
+	text-transform: uppercase;
+	text-align: center;
+
+}
+
+#cheesegallery img{
+	width: 350px;
+	border-radius: 15px;
+}
+
+#cheesegallery p {
+
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight:100; 
+	height: 50px;
+	font-size: 1em;
+}
+
 
 
 
