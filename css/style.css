@@ -113,7 +113,7 @@ p, a {
 	
 	font-family: 'Poiret One', cursive;
 	font-weight: 600;
-	font-size: 1.5em;
+	font-size: 1.4em;
 	text-decoration: none;
 	display: block;
 	text-align: center;
@@ -268,7 +268,7 @@ position: relative;
 
 .fancyline {
 	width: 100%;
-	margin-top: 50px;
+	margin-top: 60px;
 }
 
 .cheesecaketitle{
@@ -308,6 +308,7 @@ position: relative;
 #cheesegallery h3{
 	text-transform: uppercase;
 	text-align: center;
+
 
 }
 
