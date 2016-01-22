@@ -472,10 +472,16 @@ overlay code from http://www.cssscript.com/transparent-image-hover-overlay-with-
 /*****************************Static Gallery Picture***********************************/
 
 
-.frontpagegallery img {
-	width: 100%;
+.frontpagegallery {
+
+	text-align: center;
+	margin: 0 auto;
 }
 
+.frontpagegallery img{
+	width:100%;
+	max-width: 1200px;
+}
 
 
 /* ************************************ footer  ************************************ */
