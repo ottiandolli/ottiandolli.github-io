@@ -130,11 +130,21 @@ p, a {
 /*	border-right: 4px solid green;*/
 }
 
-.main-nav a:hover {
-	color: black;
-	border-bottom: none thick green;
 
+
+
+
+/*testing below: */
+.main-nav a, .main-nav a:visited{  
+	color:#fff;
 }
+.main-nav a.selected, .main-nav a:hover{
+	color:#000000;
+	font-weight: 800;
+}
+
+/*testing above*/
+
 
 /**navigation above *************************************************************************/
 
@@ -222,8 +232,9 @@ position: relative;
 /***************************************about us banner*******************************/
 
 .main-banner h1, p{
-
-	font-family: 'Poiret One', cursive;
+/*	font-family: 'Varela Round', sans-serif;*/
+	/*font-family: 'Poiret One', cursive;*/
+	font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .main-banner h1 {
