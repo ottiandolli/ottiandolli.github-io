@@ -169,21 +169,17 @@ position: relative;
 	text-align: center;
 	position: absolute;
 	z-index: 100;
-  color: white;
-  font-size: 2em;
-  font-weight: bold;
+  	color: white;
+  	font-size: 2em;
+  	font-weight: bold;
 /*  left: 150px;*/
-  bottom: 100px;
+  	bottom: 100px;
 }
 
 @media (max-width: 522px) { 
 	.slider-text{
 
-
-
-
 	  font-size: 1.0em;
-
 
 	  bottom: 50px;
 	}
@@ -774,6 +770,11 @@ svg {
 		padding: 50px 15px;
 		margin-bottom: 20px;
 		margin-top: -70px;
+	}
+
+	.slider-text {
+		padding-left: 20px;
+		padding-right: 20px;
 	}
 
 	/* Imagery
