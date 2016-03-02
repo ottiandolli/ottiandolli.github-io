@@ -84,10 +84,8 @@
 		</div>
 	</header>
 
-	<div class="contactformtitle">
-		<h1> CONTACT US </h1>
-		<h4> Please get in touch with us if you have any orders or enquiries </h4>
-	</div>
+
+	<div id="bg">
 
 
 
@@ -99,55 +97,72 @@
 
 
 
-	 <div class="row">
-		<div class="column-1">
-		</div>
 
-		<div class="column-5 contactdetails">
-			<h4>Call Us</h4>
-		
-			<a href="tel:021476611"><img src="images/phonered.png" width="25" height="30" alt="" />  021 476 611 </a>
-			<hr>
-			<h4>Email Us</h4>
+			<div id="search-container">
+	    		<div id="search-bg"></div>
 
-			<a href="mailto:ottiandolli@gmail.com"><img src="images/envelopered.png" width="30" height="20" alt="" />  ottiandolli@gmail.com </a>
-			<hr>
-			<h4>Check us out on Facebook</h4>
-			<a href="https://www.facebook.com/ottiandolli"><img src="images/facebookblue.png" width="45" height="45"></a>
-		</div>
 
-		<div class="column-5">
-			<form class="cmxform" id="commentForm" action="//formspree.io/ottiandolli@gmail.com"
-      method="POST" novalidate> 
-			  	<h2 class="contactformtitle"> SEND US A MESSAGE </h2>
-			
-			    <p>
-			      <label for="cname">Name</label><br>
-			      <input id="cname" name="name" minlength="2" type="text" required>
-			    </p>
-			    <p>
-			      <label for="cemail">E-Mail</label><br>
-			      <input id="cemail" type="email" name="email" required>
-			    </p>
-			    <p>
-			      <label for="cphone">Phone</label><br>
-			      <input id="cphone" type="alphaNum" name="phone" required>
-			    </p>
-			    <p>
-			      <label for="ccomment">Your Message</label><br>
-			      <textarea id="ccomment" name="comment" rows="8" required></textarea>
-			    </p>
-			    <p>
-			      <input class="submit" type="submit" value="Submit">
-			    </p>
-			    <input type="text" name="_gotcha" style="display:none" />
-				<input type="hidden" name="_next" value="//ottiandolli.co.nz/thanks.html" />
-				<input type="hidden" name="_subject" value="New submission!" />
-			</form>
-		</div>
-		<div class="column-1">
-		</div>	
-	</div>
+
+
+
+
+	    			<div id="search">
+
+
+	    				<div class="contactformtitle">
+							<h1> CONTACT US </h1>
+							<h4> Please get in touch with us if you have any orders or enquiries </h4>
+						</div> 
+
+
+					<div class="contactdetails">
+						<h4>Call Us</h4>
+					
+						<a href="tel:021476611"><img src="images/phonered.png" width="25" height="30" alt="" />  021 476 611 </a>
+						<hr>
+						<h4>Email Us</h4>
+
+						<a href="mailto:ottiandolli@gmail.com"><img src="images/envelopered.png" width="30" height="20" alt="" />  ottiandolli@gmail.com </a>
+						<hr>
+						<h4>Check us out on Facebook</h4>
+						<a href="https://www.facebook.com/ottiandolli"><img src="images/facebookblue.png" width="45" height="45"></a>
+					</div>
+
+
+						<form class="cmxform" id="commentForm" action="//formspree.io/ottiandolli@gmail.com"
+			      method="POST" novalidate> 
+						  	<h2 class="contactformtitle"> SEND US A MESSAGE </h2>
+						
+						    <p>
+						      <label for="cname">Name</label><br>
+						      <input id="cname" name="name" minlength="2" type="text" required>
+						    </p>
+						    <p>
+						      <label for="cemail">E-Mail</label><br>
+						      <input id="cemail" type="email" name="email" required>
+						    </p>
+						    <p>
+						      <label for="cphone">Phone</label><br>
+						      <input id="cphone" type="alphaNum" name="phone" required>
+						    </p>
+						    <p>
+						      <label for="ccomment">Your Message</label><br>
+						      <textarea id="ccomment" name="comment" rows="8" required></textarea>
+						    </p>
+						    <p>
+						      <input class="submit" type="submit" value="Submit">
+						    </p>
+						    <input type="text" name="_gotcha" style="display:none" />
+							<input type="hidden" name="_next" value="//ottiandolli.co.nz/thanks.html" />
+							<input type="hidden" name="_subject" value="New submission!" />
+						</form>
+					</div>
+				</div>
+			</div>
+	
+
+	
+
 
 
 	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
@@ -158,7 +173,7 @@
 		$("#commentForm").validate();
 	</script>
 
-
+	</div>
 
 	<footer class="main-footer">
 

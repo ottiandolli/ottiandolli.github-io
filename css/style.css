@@ -524,18 +524,99 @@ overlay code from http://www.cssscript.com/transparent-image-hover-overlay-with-
 
 
 /****************************************contact us page***************************************/
+
+
+/*blured window affect*/
+
+
+
+#bg, #search-bg {
+  background-image: url('../images/contactbackground.jpg');
+  background-repeat: no-repeat;
+ background-size: auto 2300px;
+
 	
+
+}
+
+#bg {
+  background-position: center top;
+  padding: 70px 20px 120px 20px;
+/*  width: auto;*/
+}
+
+@media (min-width: 568px) { 
+	#bg {
+	padding-left: 50px;
+	padding-right:50px;
+	}
+}
+
+@media (min-width: 568px) { 
+	#bg {
+	padding-left: 100px;
+	padding-right:100px;
+	}
+}
+
+@media (min-width: 868px) { 
+	#bg {
+	padding-left: 130px;
+	padding-right:130px;
+	}
+}
+
+
+
+#search-container {
+  position: relative;
+}
+
+#search-bg {
+  /* Absolutely position it, but stretch it to all four corners, then put it just behind #search's z-index */
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  z-index: 99;
+
+  /* Pull the background 70px higher to the same place as #bg's */
+  background-position: center -70px;
+
+  -webkit-filter: blur(10px);
+  filter: url('../images/gallerybackground.jpg');
+  filter: blur(10px);
+}
+
+#search {
+  /* Put this on top of the blurred layer */
+  position: relative;
+  z-index: 100;
+  padding: 20px;
+  background: rgb(34,34,34); /* for IE */
+  background: rgba(34,34,34,0.45);
+}
+
+
+/*	blurred window affect  above ***************************/
+
+
+
+
 
 .contactdetails {
 	text-align: center;
+	color: white;
 }
 
 
 #commentForm {
 
-
+	max-width: 500px;
+	margin: 0px auto;
 	color: white;
-	background-color:  #cc2027;
+/*	background-color:  #cc2027;*/ /*  working on */
 	border-radius: 10px;
 	padding: 10px;
 }
@@ -549,7 +630,7 @@ overlay code from http://www.cssscript.com/transparent-image-hover-overlay-with-
 
 
 .contactformtitle {
-
+	color: white;
 	margin-top: 10px;
 	margin-bottom: 50px;
 	text-align: center;
@@ -787,6 +868,9 @@ svg {
 	}
 
 	/******************************Contact Us page**********************************************/
+
+
+
 
 	.submit {
 		width: 100px;
