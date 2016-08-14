@@ -283,6 +283,14 @@ position: relative;
 	font-size: 1.8em;
 }
 
+
+#cakeNotes{
+	text-align: center;
+	font-size: 1.1em;
+}
+
+
+
 #cheesegallery {
 
    display: -webkit-flex;
