@@ -516,6 +516,11 @@ overlay code from http://www.cssscript.com/transparent-image-hover-overlay-with-
 	background-size: cover;
 }
 
+
+#footerlogo {
+	margin-top: 50px;
+}
+
 .main-footer h4 {
 	font-size: 1.2em;
 }
@@ -656,7 +661,7 @@ overlay code from http://www.cssscript.com/transparent-image-hover-overlay-with-
 	font-size: 1.2em;
 	width: 100%;
 /*	background-color: #25CC5C;*/
-	background-color: #00B241;
+	background-color: #cc2027;
 
 }
 
